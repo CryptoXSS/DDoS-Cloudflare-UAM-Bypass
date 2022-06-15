@@ -2,7 +2,6 @@
 // Stop paying for this shit!
 
 const scraper = require('cloudscraper');
-const Stack = require('Stack');
 const cluster = require('cluster');
 const request = require('request');
 const ciphers = require('ciphers');
