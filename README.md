@@ -5,7 +5,11 @@ $ pip freeze > requirements.txt
 $ cat requirements.txt
 $ pip3 install -r requirements.txt :D
 
-<h1>ERROR: Could not find a version that satisfies the requirement CherryTree==0.38.8 (from versions: 0.1.0, 0.1.1)</h1>
-  <h1>ERROR: No matching distribution found for CherryTree==0.38.8</h1>
-  <h1>DELETE CherryTree==0.38.8 :V ALV JAJAJA</h1>
-  <h5>USE:PIP3 INSTALL -R REQUIREMENTS.TXT</h5>
+install
+git clone https://github.com/CryptoXSS/DDoS-Cloudflare-UAM-Bypass
+cd DDoS-Cloudflare-UAM-Bypass
+# apt-get install -y npm
+# npm -v 
+7.5.2
+
+
