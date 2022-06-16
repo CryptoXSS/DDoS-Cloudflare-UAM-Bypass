@@ -10,6 +10,7 @@ git clone https://github.com/CryptoXSS/DDoS-Cloudflare-UAM-Bypass
 cd DDoS-Cloudflare-UAM-Bypass
 
 #~ curl -sL https://deb.nodesource.com/setup_4.x | sudo -E bash -
+
 sudo apt-get install -y nodejs
 
 #~ apt-get install -y npm
