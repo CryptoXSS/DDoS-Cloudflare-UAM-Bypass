@@ -19,6 +19,9 @@ sudo apt-get install -y nodejs
 
 #~ npm -v 
 
+-----
+npm install cloudscraper && npm install cluster && npm install request && npm install ciphers && npm install minimist
+-----
 #~ npm install cloudscraper
 
 #~ npm install cluster
