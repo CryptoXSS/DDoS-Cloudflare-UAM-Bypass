@@ -22,9 +22,9 @@ else if(args['proxyfile'] == null)
 {
 	return console.log('Proxy file path must be specified using the --proxyfile argument.');
 }
-else if(args['uafile'] == null)
+else if(args['UserAgent'] == null)
 {
-	return console.log('User-agent file path must be specified using the --uafile argument.');
+	return console.log('User-agent file path must be specified using the --UserAgent argument.');
 }
 else if(args['threads'] == null)
 {
@@ -46,9 +46,9 @@ if(!fs.existsSync(args['proxyfile']))
 	return console.log('Proxy file does not exist.');
 }
 
-if(!fs.existsSync(args['uafile']))
+if(!fs.existsSync(args['UserAgent']))
 {
-	return console.log('UA file does not exist.');
+	return console.log('UserAgent file does not exist.');
 }
 
 if(!Number.isInteger(args['threads']))
@@ -71,7 +71,7 @@ if(!Number.isInteger(args['seconds']))
 var proxy_counter = 0;
 
 const proxies = fs.readFileSync(args['proxyfile'], 'utf-8').toString().split("\n");
-const uas = fs.readFileSync(args['uafile'], 'utf-8').toString().split("\n");
+const uas = fs.readFileSync(args['UserAgent'], 'utf-8').toString().split("\n");
 
 function greater(first, second)
 {
